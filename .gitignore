@@ -1,0 +1,14 @@
+# Ignore everything by default
+*
+
+# Allow dotfiles (files and directories beginning with .)
+!.*
+
+# But ignore the current directory
+.**
+
+# Re-allow hidden folders (like .config)
+!.*/
+
+# DO NOT track Git's own folder
+!.gitignore
